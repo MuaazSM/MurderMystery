@@ -1,4 +1,8 @@
 def build_prompt(mystery, user_input):
+    clues_text = "\n".join(f"- {clue}" for clue in mystery["clues"])
+    suspects = ", ".join(mystery["suspects"])
+    clues_formatted = "\n".join(['- ' + clue for clue in mystery['clues']])
+    
     return f"""
     You are an AI Detective game evaluator. A player has just watched a video and submitted a theory about what happened.
     Here are the mystery details:
@@ -7,12 +11,12 @@ def build_prompt(mystery, user_input):
 
     Description: {mystery['description']}
 
-    Suspects: {mystery['suspects']}
+    Suspects: {suspects}
 
-    Clues: {"\\n".join(['- ' + clue for clue in mystery['clues']])}
+    Clues: {clues_formatted}
 
     Correct Answer:
-    {mystery['correct_answer']}
+    {clues_text}
 
     Reasoning:
     {mystery['reasoning']}

@@ -1,6 +1,6 @@
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
-from app.prompt_templates import build_prompt
+from prompt_templates import build_prompt
 from dotenv import load_dotenv
 
 load_dotenv()

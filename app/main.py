@@ -1,7 +1,7 @@
 import streamlit as st
 import json
-from app.ai_checker import evaluate
-from utils.file_loader import load_all_mysteries
+from ai_checker import evaluate
+from file_loader import load_all_mysteries
 
 st.set_page_config(layout = "wide")
 
