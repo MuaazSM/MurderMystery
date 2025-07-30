@@ -2,7 +2,7 @@
     {
         "id": "mystery1",
         "title": "Jack's Poisoning",
-        "video": "assets/videos/mystery1.mp4",
+        "video": "assets/videos/riddle1.mp4",
         "description": "A rude soccer player named Jack dies of poisoning after a team dinner. Jack had eaten some of his teammate Harry's fries, had his other teammate Charlie buy him an energy drink, and ate his teammate Oliver's apple pie. The waiter also served him his meal. However, no poison was found on the fries, the energy drink, the leftover apple pie, or Jack's main meal.",
         "suspects": [
             "Harry",
@@ -21,9 +21,9 @@
         "reasoning": "Charlie laced the straw of the energy drink with poison, which killed Jack."
     },
     {
-        "id": "mystery2",
+        "id": "riddle2",
         "title": "The Mafia Boss",
-        "video": "assets/videos/mystery2.mp4",
+        "video": "assets/videos/riddle2.mp4",
         "description": "Agent Jason needs to identify a Mafia boss from five suspects: Jeff Norman, Liam Walton, Cain Hunter, Cole Carry, and Nolde Ramsey. From a public phone booth, Jason leaves a coded message for his agency head, David, stating that his cell phone's dialing pad isn't working. The message includes a tracking number: 738684-36254. He also mentions a mirror. After this, Jason loses his memory. The key is hidden in the tracking number and the mirror hint.",
         "suspects": [
             "Jeff Norman",
@@ -41,9 +41,9 @@
         "reasoning": "When the tracking number is mirrored, it becomes 52632-486837. Mapping these numbers to letters on a phone dialing pad spells out 'Cain Hunter'."
     },
     {
-        "id": "mystery3",
+        "id": "riddle3",
         "title": "Desert Murder",
-        "video": "assets/videos/mystery3.mp4",
+        "video": "assets/videos/riddle3.mp4",
         "description": "A film crew in the desert has their bus and all of their equipment stolen. On the fourth day, the director is found murdered in his tent. The scriptwriter was working on the script in his tent. The cameraman was shooting different angles nearby for the last four days. The producer was sick in his tent, and the hero was rehearsing lines with the heroine in his tent.",
         "suspects": [
             "Scriptwriter",
@@ -64,7 +64,7 @@
     {
         "id": "mystery4",
         "title": "Old Man's Murder",
-        "video": "assets/videos/mystery4.mp4",
+        "video": "assets/videos/riddle4.mp4",
         "description": "An old man is found murdered in his cottage by the mailman on a Thursday morning. At the scene, there are two bottles of milk, Monday's newspaper, a catalog, flyers, and unopened mail. The key observation is that Tuesday's and Wednesday's newspapers are missing, which suggests foul play.",
         "suspects": [
             "Newspaper Boy"
@@ -80,7 +80,7 @@
     {
         "id": "mystery5",
         "title": "Mr. Paul's Poisoning",
-        "video": "assets/videos/mystery5.mp4",
+        "video": "assets/videos/riddle5.mp4",
         "description": "Mr. Paul dies of poisoning after having dinner at Mr. Joe's restaurant. Surveillance video shows Mr. Joe, Mr. Paul, their business manager, their accountant, Mr. Paul's wife Janice, and the waiter at the table. The manager looked worriedly at his watch, the accountant passed food and cut an apple in half\u2014giving one half to Mr. Paul. Mr. Joe was quietly on the phone. Janice kept glancing at the door, whispered to the waiter, and went to the restroom. The waiter served food and replaced Mr. Paul's fork after dropping it.",
         "suspects": [
             "Manager",
@@ -100,7 +100,7 @@
     {
         "id": "mystery6",
         "title": "Frosty Window Murder",
-        "video": "assets/videos/mystery6.mp4",
+        "video": "assets/videos/riddle6.mp4",
         "description": "An old man is found dead in his TV lounge. His friend calls the police, claiming he wiped frost off the window from the outside to look inside and saw the body. The police immediately find the friend's statement suspicious.",
         "suspects": [
             "Friend"
@@ -114,7 +114,7 @@
     {
         "id": "mystery7",
         "title": "The Hung Woman",
-        "video": "assets/videos/mystery7.mp4",
+        "video": "assets/videos/riddle7.mp4",
         "description": "A woman is found dead, hung from the ceiling in a completely empty room with no windows, chairs, or tables. The only clue is that the carpet is wet and soaked.",
         "suspects": [
             "Suicide"
@@ -128,7 +128,7 @@
     {
         "id": "mystery8",
         "title": "The Broken Window",
-        "video": "assets/videos/mystery8.mp4",
+        "video": "assets/videos/riddle8.mp4",
         "description": "A couple reports a robbery, claiming a burglar entered by breaking a window. The policeman states immediately that it wasn\u2019t an outsider.",
         "suspects": [
             "Couple"
@@ -142,7 +142,7 @@
     {
         "id": "mystery9",
         "title": "Stuart's Code",
-        "video": "assets/videos/mystery9.mp4",
+        "video": "assets/videos/riddle9.mp4",
         "description": "In a mock case, Stuart is murdered by one of his five friends: Thomas, Claude, Phillip, Mark, or Stuart. Before dying, Stuart scribbles 'O G H K H O' as a clue to the killer's name.",
         "suspects": [
             "Thomas",
@@ -159,7 +159,7 @@
     {
         "id": "mystery10",
         "title": "Cassette Recorder Suicide",
-        "video": "assets/videos/mystery10.mp4",
+        "video": "assets/videos/riddle10.mp4",
         "description": "A man is found dead with a cassette recorder in one hand and a gun in the other. The tape plays a suicide note followed by a gunshot sound. The police instantly know it\u2019s not a suicide.",
         "suspects": [
             "Unknown Killer"
@@ -173,7 +173,7 @@
     {
         "id": "mystery11",
         "title": "Hotel Manager Murder",
-        "video": "assets/videos/mystery11.mp4",
+        "video": "assets/videos/riddle11.mp4",
         "description": "Four friends stay overnight at a hotel before a concert. The next morning, the hotel manager is murdered. Their alibis include golf, washing clothes, gym workout, and swimming.",
         "suspects": [
             "First Friend",
@@ -190,7 +190,7 @@
     {
         "id": "mystery12",
         "title": "Mr. Smith's Brother Murder",
-        "video": "assets/videos/mystery12.mp4",
+        "video": "assets/videos/riddle12.mp4",
         "description": "Mr. Smith's brother is murdered. The gardener, neighbor, Mr. Smith, and servant all provide alibis.",
         "suspects": [
             "Gardener",
@@ -207,7 +207,7 @@
     {
         "id": "mystery13",
         "title": "Bank Robbery Call",
-        "video": "assets/videos/mystery13.mp4",
+        "video": "assets/videos/riddle13.mp4",
         "description": "During a bank robbery, manager Peter receives a call from his wife Kathleen asking him to bring home batteries. He cleverly signals the robbery situation to her without alerting the robber.",
         "suspects": [
             "Robber"
