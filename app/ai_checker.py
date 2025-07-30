@@ -15,4 +15,4 @@ llm = ChatGoogleGenerativeAI(
 def evaluate(mystery, user_input):
     prompt = build_prompt(mystery, user_input)
     response = llm.invoke(prompt)
-    return response.strip()
+    return response.content.strip()
