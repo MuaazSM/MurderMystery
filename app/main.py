@@ -12,7 +12,7 @@ total_mysteries = len(mysteries)
 
 
 if "mystery_index" not in st.session_state:
-    st.session_state.mystery_index = random.randint(0, total_mysteries - 1)
+    st.session_state.mystery_index = 0
 
 
 mystery = mysteries[st.session_state.mystery_index]
@@ -44,13 +44,5 @@ if st.button("Submit Theory"):
         st.success(response)
 
 if st.button("Next Mystery"):
-    st.session_state.next_mystery = True
-
-if st.session_state.get("next_mystery", False):
-    prev_index = st.session_state.mystery_index
-    next_index = random.randint(0, total_mysteries - 1)
-    while total_mysteries > 1 and next_index == prev_index:
-        next_index = random.randint(0, total_mysteries - 1)
-    st.session_state.mystery_index = next_index
-    st.session_state.next_mystery = False
+    st.session_state.mystery_index = (st.session_state.mystery_index + 1) % total_mysteries
     st.rerun()
